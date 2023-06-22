@@ -3,6 +3,8 @@ import { content } from "../Content";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { createElement } from "react";
 
+
+
 const Navbar = () => {
   const { nav } = content;
   const [showMenu, setShowMenu] = useState(false);
