@@ -19,10 +19,6 @@ import email from "./assets/images/Services/email.png"
 import personaProjecto from "./assets/images/Services/personaproyectos.png"
 
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-
 import web1 from "./assets/webs/Web1.jpeg";
 import web2 from "./assets/webs/Web2.jpeg";
 import web3 from "./assets/webs/Web3.jpeg";
