@@ -25,5 +25,6 @@ module.exports = {
       },
     },
   },
+  unknownAtRules: 'ignore', // <--- Agregué esta línea
   plugins: [],
 };

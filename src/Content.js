@@ -19,9 +19,15 @@ import email from "./assets/images/Services/email.png"
 import personaProjecto from "./assets/images/Services/personaproyectos.png"
 
 
-//import project1 from "./assets/images/projects/img1.png";
-//import project2 from "./assets/images/projects/img2.png";
-//import project3 from "./assets/images/projects/img3.png";
+import project1 from "./assets/images/projects/img1.png";
+import project2 from "./assets/images/projects/img2.png";
+import project3 from "./assets/images/projects/img3.png";
+
+import web1 from "./assets/webs/Web1.jpeg";
+import web2 from "./assets/webs/Web2.jpeg";
+import web3 from "./assets/webs/Web3.jpeg";
+import web4 from "./assets/webs/Web4.jpeg";
+import web5 from "./assets/webs/Web5.jpeg";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -140,21 +146,29 @@ export const content = {
     ],
   },
   Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: personaProjecto,
+    title: "Mis proyectos",
+    subtitle: "Algunas web que he realizado",
+    image: Hero_person,
     project_content: [
       {
-        title: "Gym Website",
-        image: project1,
+        title: "Cuspide Digital",
+        image: web1,
       },
       {
-        title: "Social Media web",
-        image: project2,
+        title: "Ultramin",
+        image: web2,
       },
       {
-        title: "Creative Website",
-        image: project3,
+        title: "La fusta taller",
+        image: web3,
+      },
+      {
+        title: "Ismed",
+        image: web4,
+      },
+      {
+        title: "Centro de terapia",
+        image: web5,
       },
     ],
   },

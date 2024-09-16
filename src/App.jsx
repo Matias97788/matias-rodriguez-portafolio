@@ -7,11 +7,10 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 
 const App = () => {
   useEffect(() => {
@@ -21,19 +20,21 @@ const App = () => {
       disable: "mobile",
     });
   }, []);
+
+  const [year, setYear] = useState(new Date().getFullYear());
+
   return (
     <div className="">
       <Navbar />
       <Hero />
       <Skills />
+      <Projects/>
       <Service />
-   
-     
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">MATIAS RODRIGUEZ</h6>
-        <p>MATIASRODRIGUEZ © All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">Matías Rodríguez</h6>
+        <p>Matías Rodríguez &copy; Todos los derechos reservados {year}</p>
       </footer>
     </div>
   );
